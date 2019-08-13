@@ -9,6 +9,16 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 
+	<script src="https://lex-web-ui-codebuilddeploy-9rmtb4236-webappbucket-kq7z99plx4lx.s3.amazonaws.com/lex-web-ui-loader.min.js"></script>
+	<script>
+ 		 var loaderOpts = {
+    	baseUrl: 'https://lex-web-ui-codebuilddeploy-9rmtb4236-webappbucket-kq7z99plx4lx.s3.amazonaws.com/'
+  		};
+  		var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+  		loader.load()
+  		.catch(function (error) { console.error(error); });
+	</script>
+
 	<body class="is-preload">
 
 		<!-- Wrapper -->
