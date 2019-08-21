@@ -9,6 +9,14 @@
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script src="https://lex-web-ui-codebuilddeploy-jxdsstmze-webappbucket-n2uah9sx2et.s3.amazonaws.com/lex-web-ui-loader.min.js"></script>
+		<script>
+			var loaderOpts = {
+				baseUrl: 'https://lex-web-ui-codebuilddeploy-jxdsstmze-webappbucket-n2uah9sx2et.s3.amazonaws.com/'
+			};
+			var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+			loader.load()
+				.catch(function (error) { console.error(error); });
+		</script>
 	</head>
 
 	<body class="is-preload">
@@ -106,7 +114,7 @@
 			<div>
 				<iframe src='https://lex-web-ui-codebuilddeploy-jxdsstmze-webappbucket-n2uah9sx2et.s3.amazonaws.com/lex-web-ui-loader.min.js' width="400px" height="500px"></iframe>
 			</div>
-			
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -118,11 +126,3 @@
 
 	</body>
 </html>
-			<script>
-			var loaderOpts = {
-				baseUrl: 'https://lex-web-ui-codebuilddeploy-jxdsstmze-webappbucket-n2uah9sx2et.s3.amazonaws.com/'
-			};
-			var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
-			loader.load()
-				.catch(function (error) { console.error(error); });
-			</script>
