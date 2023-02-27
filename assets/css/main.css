@@ -184,6 +184,10 @@ input, select, textarea {
 		padding-right: 20px;
 	}
 
+	li, p {
+		text-align: left;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
