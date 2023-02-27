@@ -2185,6 +2185,9 @@ input, select, textarea {
 					line-height: 3.75rem;
 				}
 
+				.button.large {border-radius: 8px;}
+				.button {border-radius: 8px;}
+
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
